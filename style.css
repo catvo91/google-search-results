@@ -1,0 +1,111 @@
+#header {
+	width: 100%;
+	height: 10%;
+	margin: 0;
+	border: 5px solid black;
+	background-color: pink;
+}
+* {
+  font-family: arial;
+}
+
+#header {
+	height: 70px;
+	width: 100%;
+	display: block;
+}
+
+#circle {
+	width:50px;
+	height: 50px;
+	border-radius: 100%;
+	display: block;
+	margin: 10px;
+	float: right;
+	background-color: #8865c7;
+	position: static;
+	margin-right: 10px;
+}
+
+#circle p {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	: 
+}
+
+#note {
+	width:30px;
+	height: 30px;
+	border-radius: 100%;
+	display: block;
+	float: right;
+	background-color: #e4d0d0;
+	position: static;
+	margin: 20px 5px;
+}
+#note svg {
+	margin: auto;
+	display:  block;
+	margin-top: 2px;
+}
+
+#dots {
+	width:30px;
+	height: 30px;
+	display: block;
+	float: right;
+	position: static;
+	margin: 20px 6px;
+}
+#dots svg {
+	height: 30px;
+	width: 30px;
+}
+
+#search {
+	width: 60%;
+	height: 100%;
+	margin-right: 200px;
+	float: right;
+	display: block;
+	position: relative;
+}
+
+#box {
+	width: 10%;
+	height: 50%;
+	margin: auto;
+	float: right;
+	display: block;
+	margin-right: 25%;
+	position: relative;
+	background-color: red;
+	margin-top: 17.5px;
+}
+
+input {
+	width: 65%;
+	height: 50%;
+	position: block;
+	float: left;
+	margin: 17.5px 0px;
+}
+
+#logo {
+	height: 100%;
+	width: 10%;
+	margin: auto;
+	display: block;
+	float: left;
+	background-color: blue;
+	position: relative;
+}
+
+#logo img {
+	height: 50%;
+	width: auto;
+	margin: 17.5px;
+	float: right;
+	display: block;
+}
