@@ -1,9 +1,10 @@
+body {
+	margin: 0px;
+}
 #header {
 	width: 100%;
 	height: 10%;
 	margin: 0;
-	border: 5px solid black;
-	background-color: pink;
 }
 * {
   font-family: arial;
@@ -62,50 +63,60 @@
 	height: 30px;
 	width: 30px;
 }
+#icons {
+}
 
 #search {
 	width: 60%;
 	height: 100%;
-	margin-right: 200px;
 	float: right;
 	display: block;
 	position: relative;
+	left: -280px;
 }
 
 #box {
-	width: 10%;
+	width: 35px;
 	height: 50%;
 	margin: auto;
-	float: right;
-	display: block;
-	margin-right: 25%;
+	display: inline-block;
 	position: relative;
-	background-color: red;
+	background-color: #445fc3;
 	margin-top: 17.5px;
+	left: 0px;
+}
+
+#box svg {
+	padding: 5.5px;
 }
 
 input {
 	width: 65%;
 	height: 50%;
-	position: block;
+	position: inline;
 	float: left;
 	margin: 17.5px 0px;
+	font: arial;
+	font-size: 14px;
 }
 
 #logo {
-	height: 100%;
+	height: 70px;
 	width: 10%;
 	margin: auto;
 	display: block;
-	float: left;
-	background-color: blue;
-	position: relative;
+	position: absolute;
 }
 
 #logo img {
-	height: 50%;
+	height: 35px;
 	width: auto;
-	margin: 17.5px;
-	float: right;
+	margin: auto;
 	display: block;
+	position: fixed;
+	padding: 17.5px 20px;
 }
+
+
+
+
