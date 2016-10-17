@@ -5,7 +5,9 @@ body {
 	width: 100%;
 	height: 10%;
 	margin: 0;
+	background-color: green;
 }
+
 * {
   font-family: arial;
 }
@@ -63,8 +65,6 @@ body {
 	height: 30px;
 	width: 30px;
 }
-#icons {
-}
 
 #search {
 	width: 60%;
@@ -98,6 +98,9 @@ input {
 	margin: 17.5px 0px;
 	font: arial;
 	font-size: 14px;
+	color: black;
+	background: url("data:image/svg+xml;utf8,<svg fill='#000000' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z'/><path d='M0 0h24v24H0z' fill='none'/></svg>")  no-repeat;
+	background-position: right;
 }
 
 #logo {
@@ -117,6 +120,79 @@ input {
 	padding: 17.5px 20px;
 }
 
+#header2 {
+	height: 70px;
+	width: 100%;
+	background-color: red;
+	top: 70px;
+	position: relative;
+}
 
+#icons2 {
+	height: 100%;
+	width: 25%;
+	background-color: blue;
+	position: relative;
+	left: 75%;
+}
 
+.boxes {
+	height: 50%;
+	width: 40px;
+	background-color: #dcdbdb;
+	display: block;
+	float: right;
+	margin: 0 1px;
+	position: relative;
+	top: 25%;
+	right: 10%;
+	border-radius: 2px;
+	border: 1px solid #5f5c5c;
+}
 
+#one {
+	width: 60px;
+	margin-left: 5%;
+}
+
+#two {
+	margin: 0;
+}
+
+#three {
+	margin: 0;
+	background-color: #b8b8bd;
+}
+
+.boxes svg {
+	height: 25px;
+	width: 25px;
+}
+
+#two svg {
+	position: relative;
+	left: 7.5px;
+	top: 5px;
+}
+
+#three svg {
+	position: relative;
+	left: 7.5px;
+	top: 5px;
+}
+
+#one svg {
+	position: relative;
+	left: 17.5px;
+	top: 5px;
+}
+
+#list {
+	height: 100%;
+	width: 50%;
+	color: pink;
+	position: relative;
+	display: block;
+	float: left;
+
+}
