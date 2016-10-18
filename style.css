@@ -11,6 +11,7 @@ body {
 	width: 100%;
 	display: block;
 	min-width: 900px;
+	background-color: #f5f3f3;
 }
 
 #circle {
@@ -23,6 +24,7 @@ body {
 	background-color: #8865c7;
 	position: static;
 	margin-right: 10px;
+	margin-right: 3%;
 }
 
 #circle p {
@@ -62,14 +64,11 @@ body {
 }
 
 #search {
-	width: 60%;
-	height: 100%;
-	float: left;
-	display: block;
-	position: relative;
-	left: 144px;
-	min-width: 600px;
-	background-color: green;
+	height: 70px;
+	display: inline-block;
+	position: absolute;
+	min-width: 800px;
+	margin-left: 140px;
 }
 
 #box {
@@ -98,7 +97,8 @@ input {
 	color: black;
 	background: url("data:image/svg+xml;utf8,<svg fill='#000000' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z'/><path d='M0 0h24v24H0z' fill='none'/></svg>")  no-repeat;
 	background-position: right;
-	min-width: 400px;
+	/* min-width: 400px; */
+	background-color: white;
 }
 
 #logo {
@@ -107,7 +107,7 @@ input {
 	margin: auto;
 	display: block;
 	position: absolute;
-	background-color: purple;
+	/* background-color: purple; */
 	min-width: 130px;
 }
 
@@ -123,17 +123,32 @@ input {
 #header2 {
 	height: 70px;
 	width: 100%;
-	background-color: red;
-	top: 70px;
+	/* background-color: red; */
+	display: block;
+	min-width: 900px;
 	position: relative;
+	border-bottom: 2px solid #cec3c3;
+}
+
+#logo2 {
+	height: 70px;
+	width: 10%;
+	margin: auto;
+	display: block;
+	position: absolute;
+	min-width: 130px;
 }
 
 #icons2 {
 	height: 100%;
-	width: 25%;
-	background-color: blue;
-	position: absolute;
-	left: 75%;
+	width: 40%;
+	/* background-color: blue; */
+	position: relative;
+	left: 5%;
+	margin-left: 1080px;
+	min-width: 360px;
+	display: inline-block;
+	float: right;
 }
 
 .boxes {
@@ -153,6 +168,7 @@ input {
 #one {
 	width: 60px;
 	margin-left: 5%;
+	margin-right: 10%;
 }
 
 #two {
@@ -190,20 +206,41 @@ input {
 #list {
 	height: 100%;
 	width: 40%;
-	background-color: pink;
+	/* background-color: pink; */
 	position: absolute;
-	left: 10%;
-	min-width: 600px;
+	min-width: 500px;
+	padding-left: 105px;
 }
 
 ul {
 	list-style-type: none;
 	margin: 0;
-	background-color: purple;
+	/* background-color: purple; */
 	position: relative;
 	top: 26px;
 }
 
-li {
-	display: inline;
+#list li {
+	display: inline-block;
+	/* background-color: coral; */
+	padding: 0px 10px;
+	font-size: 13px;
+}
+
+#main {
+	height: 900px;
+	width: 100%;
+	/* background-color: beige; */
+	margin-left: 140px;
+}
+#numbers {
+	height: 5%;
+	width: 100%;
+	/* background-color: cadetblue; */
+	position: relative;
+}
+
+p {
+	font-size: 12px;
+	color: #777575;
 }
